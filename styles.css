@@ -1,0 +1,136 @@
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+main {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #444444;
+}
+
+h2 {
+    text-align: left;
+    color: #555555;
+}
+
+.text {
+    color: #777777;
+    line-height: 150%;
+}
+
+.icon {
+    color: #777777;
+    margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 150%;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #f9a825
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue
+}
+
+.contacts {
+    text-align: left;
+}
+
+.skills {
+    margin-left: 0px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 'img name' 'img contacts' 'summary summary-info' 'skills skills-info' 'code code-info' 'exp exp-info' 'edu edu-info' 'eng eng-info';
+    grid-gap: 10px;
+    padding: 50px;
+}
+
+.image {
+    grid-area: img;
+}
+
+.name {
+    grid-area: name;
+}
+
+.contacts {
+    grid-area: contacts;
+}
+
+.summary {
+    grid-area: summary;
+}
+
+.summary-info {
+    grid-area: summary-info;
+}
+
+.skills {
+    grid-area: skills;
+}
+
+.skills-info {
+    grid-area: skills-info;
+}
+
+.code {
+    grid-area: code;
+}
+
+.code-info {
+    grid-area: code-info;
+}
+
+.exp {
+    grid-area: exp;
+}
+
+.exp-info {
+    grid-area: exp-info;
+}
+
+.edu {
+    grid-area: edu;
+}
+
+.edu-info {
+    grid-area: edu-info;
+}
+
+.eng {
+    grid-area: eng;
+}
+
+.eng-info {
+    grid-area: eng-info;
+}
